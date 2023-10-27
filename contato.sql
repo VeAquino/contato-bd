@@ -17,7 +17,7 @@ INSERT INTO lista (nome, telefone) VALUES
 ("Mah Aquino", "985391276"), 
 ("Bru Cabezas", "936987654");
 
--- 
+-- criar tabela chamada lista com id, nome, telefone,Uf
 CREATE TABLE lista ( 
 Id  INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 Nome VARCHAR(50) NOT NULL,
@@ -25,7 +25,7 @@ Telefone VARCHAR(11) NOT NULL,
 Uf VARCHAR(2) NOT NULL
 );
 
---
+-- inserir na tabela lista nomes, contatos e estado
 INSERT INTO lista (nome, telefone,Uf) VALUES 
 ("Faustino Manuel", "987390490","Sp"),
 ("Mah Aquino", "985391276", "Mg"), 
