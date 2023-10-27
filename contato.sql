@@ -30,3 +30,7 @@ INSERT INTO lista (nome, telefone,Uf) VALUES
 ("Faustino Manuel", "987390490","Sp"),
 ("Mah Aquino", "985391276", "Mg"), 
 ("Bru Cabezas", "936987654", "Df");
+
+-- selecionar pessoas cujo estado é Mg
+SELECT * FROM lista WHERE Uf ="Mg";
+
